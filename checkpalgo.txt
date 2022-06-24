@@ -1,0 +1,18 @@
+function calcul(ch)
+{
+var int k= 0;
+var int  z= 0;
+for(var int i=0;i<ch.length;i++)
+
+{
+    
+    if(ch[i]==' ')
+    k++;
+    else if(ch[i]=='.')
+    break;
+    else if((ch[i].toUpperCase()=="A")||(ch[i].toUpperCase()=="E")||(ch[i].toUpperCase()=="O")||(ch[i].toUpperCase()=="U")||(ch[i].toUpperCase()=="Y")||(ch[i].toUpperCase()=="I"))
+z++;
+    
+}
+    return k,z
+}

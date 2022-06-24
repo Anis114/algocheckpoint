@@ -1,0 +1,27 @@
+function calcul_sum(set1,set2)
+{var bool tr=true;
+var int sum=0;
+    
+    for(i=0;i<set1.length;i++)
+{
+    for(j=0;j<set2.length;j++)
+    if (set1[i==set2[j])
+{    tr=false
+    break;
+}
+if (tr)
+sum=sum+set1[i]
+}
+for(i=0;i<set2.length;i++)
+{
+    for(j=0;j<set1.length;j++)
+    if (set2[i==set1[j])
+{    tr=false
+    break;
+}
+if (tr)
+sum=sum+set2[i]
+}
+
+    return sum;
+}
